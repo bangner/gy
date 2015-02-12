@@ -1,21 +1,23 @@
-<html>
+<!DOCTYPE html>
 <head>
   <title>GoldieYawn</title>
   <link rel="stylesheet" type="text/css" href="css3/goldie.css">
-  <script language="javascript" type="text/javascript" src="js3/goldie.js"></script>
-  <script src="jquery.js"></script>
 </head>
 <body>
   <div class="video-container">
-    <video id="video" width="500" height="500">
+    <video id="video" width="500" height="500" poster="goldieyawn.jpg">
       <source src="ja_goldieyawn.mp4" type="video/mp4">
+      <source src="ja_goldieyawn.webm" type="video/webm">
     </video>
 
     <div class="container">
-      <button id="playVid">YAWN</button>
+      <button id="playVid">PRESS</button>
     </div>
   </div>
 
+  <footer>
+    <p><a href="http://twitter.com/therealtanner88" target="_blank">@therealtanner88</a> &amp; <a href="http://twitter.com/bangner" target="_blank">@bangner</a></p>
+  </footer>
   <script>
   document.getElementById('playVid').onclick = function (){
       document.getElementById('video').play();
@@ -31,8 +33,5 @@
     ga('send', 'pageview');
 
   </script>
-  <footer>
-    <p><a href="http://twitter.com/therealtanner88" target="_blank">@therealtanner88</a> &amp; <a href="http://twitter.com/bangner" target="_blank">@bangner</a></p>
-  </footer>
 </body>
 </html>
