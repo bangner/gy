@@ -11,8 +11,14 @@
 
 .video-container {
   text-align:center;
+
 /*  margin-top: 25px;
 */}
+
+video {
+  border: 5px solid black;
+  height: auto;
+}
 
 .container {
   text-align: center;
@@ -26,9 +32,10 @@ div p {
   font-family: 'Great Vibes', cursive;
   font-size: 65px;
   text-align: center;
-  margin: 10px 0 0 0;
+  margin: 10px 0 10px 0;
 }
 button {
+  margin-top: 15px;
   width:200px;
   height:50px;
   background-color:#ffd700;
