@@ -18,6 +18,10 @@
   text-align: center;
 }
 
+.twitter {
+  float: right;
+}
+
 div p {
   font-family: 'Great Vibes', cursive;
   font-size: 65px;
