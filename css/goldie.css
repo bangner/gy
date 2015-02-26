@@ -1,9 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Great+Vibes);
 
-#yawn {
-/*  margin-top: 50px;
-*/}
-
 .goldie {
   margin-left: auto;
   margin-right: auto;
@@ -11,9 +7,7 @@
 
 .video-container {
   text-align:center;
-
-/*  margin-top: 25px;
-*/}
+}
 
 video {
   border: 2px solid black;
@@ -34,6 +28,7 @@ div p {
   text-align: center;
   margin: 10px 0 10px 0;
 }
+
 button {
   margin-top: 15px;
   width:200px;
@@ -43,8 +38,7 @@ button {
   -webkit-border-radius: 15px;
   border-radius: 15px;
   font-size: 20px;
-/*  font-weight: bold;
-*/}
+}
 
 body {
   background-color:#f2f2f2;
